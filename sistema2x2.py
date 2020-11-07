@@ -120,3 +120,5 @@ root.bind('<Return>', matrice_2x2)
 root.bind('<Return>', reset)
 
 root.mainloop()
+
+print("ciao")
