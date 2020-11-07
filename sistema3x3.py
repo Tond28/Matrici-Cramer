@@ -67,7 +67,7 @@ def reset(*args):
 
 
 root=Tk()
-root.title("Matrice 3x3")
+root.title("Sistema 3x3")
 root.geometry("500x500")
 
 
@@ -139,7 +139,7 @@ num2_entry.place(height=100, x=402, y=150)
 num3_entry=Entry(root, width=2, textvariable=num_3, font=('verdana', 50))
 num3_entry.place(height=100, x=402, y=250)
 
-Label(root, text="MATRICE 3x3", font=('verdana', 20)).pack(anchor=N)
+Label(root, text="SISTEMA 3x3", font=('verdana', 20)).pack(anchor=N)
 
 
 Label(root, text="RISULTATO:", font=('verdana', 15)).place(height=20, x=0, y=370)

@@ -56,7 +56,7 @@ def reset(*args):
 
 
 root=Tk()
-root.title("Matrice 2x2")
+root.title("Sistema 2x2")
 root.geometry("500x500")
 mainframe = ttk.Frame(root)
 mainframe.place(height=0, x=0, y=0)
@@ -100,7 +100,7 @@ num1_entry.place(height=100, x=312, y=50)
 num2_entry=Entry(root, width=2, textvariable=num_2, font=('verdana', 50))
 num2_entry.place(height=100, x=312, y=150)
 
-Label(root, text="MATRICE 2x2", font=('verdana', 20)).pack(anchor=N)
+Label(root, text="SISTEMA 2x2", font=('verdana', 20)).pack(anchor=N)
 
 
 Label(root, text="RISULTATO:", font=('verdana', 15)).place(height=20, x=0, y=370)
